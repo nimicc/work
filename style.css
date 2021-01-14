@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.logo {
+  color: rgb(53, 99, 145);
+  height: 3rem;
+  font-size: 1.5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  background-color: rgb(58, 136, 180);
+}
+.image {
+  background-image: url(/image-asset.jpeg);
+  background-color: rgb(70, 128, 185);
+  height: 420px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.flexbox {
+  display: flex;
+  background-color: rgb(70, 128, 185);
+}
+.flexbox > div {
+  border-start-end-radius: 2rem;
+  background-color: rgb(53, 99, 145);
+  height: 0.8rem;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  padding-right: 7rem;
+  padding-left: 5rem;
+}
+.flexbox > div :hover {
+  color: rgb(37, 69, 100);
+}
+.flexbox > div a {
+  color: rgb(58, 136, 180);
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: fantasy;
+  letter-spacing: 1rem;
+}
+.footer {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: rgb(53, 99, 145);
+}
+.footer div {
+  text-align: left;
+  padding-right: 13rem;
+  padding-left: 1rem;
+}
+.footer div h2 {
+  letter-spacing: 1rem;
+  font-size: xx-large;
+}
+.about {
+  text-decoration: none;
+}
